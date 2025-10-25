@@ -1,8 +1,6 @@
-mod main_file;
-use main_file::say_hello;
-
 #[path = "../src/main.rs"]
 mod main_file;
+use main_file::say_hello;
 
 #[test]
 fn test_say_hello() {
